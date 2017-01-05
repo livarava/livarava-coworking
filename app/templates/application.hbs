@@ -1,0 +1,72 @@
+<!--
+application.hbs
+~~~~~~~~~~~~~~~
+
+LivaRava Coworking Index
+
+:copyright: (c) 2017 LivaRava
+:copyright: (c) 2017 Artem Kariavka
+:license: LivaRava License
+-->
+
+<!--Итак, начнём. Условно будем называть это всё - коворкинг.-->
+
+<!--1. Идея.-->
+<!--1.1 В чём новизна и нетривиальность.-->
+<!--1.2. Способ реализации. Кратко.-->
+<!--1.3. Долгосрочная миссия. Что может дать городу в перспективе.-->
+<!--1.4. Есть ли похожие проекты в городе? Чем отличаются?-->
+
+<!--По этим пунктам у тебя времени до завтра до обеда. Не много?))-->
+
+<div class="row col-sm-10">
+
+  <h2 id="title">LivaRava Coworking</h2>
+
+  {{#swiper-container pagination=true loop=true}}
+    {{#swiper-slide class='myslide myslide-1'}}
+      <img class="img img-responsive" src="https://i.imgur.com/hChRRGx.jpg">
+    {{/swiper-slide}}
+    {{#swiper-slide class='myslide myslide-2'}}
+      <img class="img img-responsive" src="https://i.imgur.com/PHO3Gxe.jpg">
+    {{/swiper-slide}}
+    {{#swiper-slide class='myslide myslide-3'}}
+      <img class="img img-responsive" src="https://i.imgur.com/n3B1wrR.jpg">
+    {{/swiper-slide}}
+    {{#swiper-slide class='myslide myslide-4'}}
+      <img class="img img-responsive" src="https://i.imgur.com/isOhRcI.jpg">
+    {{/swiper-slide}}
+    {{#swiper-slide class='myslide myslide-5'}}
+      <img class="img img-responsive" src="https://i.imgur.com/ko86RDO.jpg">
+    {{/swiper-slide}}
+    {{#swiper-slide class='myslide myslide-6'}}
+      <img class="img img-responsive" src="https://i.imgur.com/oog8FQd.jpg">
+    {{/swiper-slide}}
+  {{/swiper-container}}
+
+  <h3>Ідея та Місія</h3>
+
+  <p>Творча та професійна самореалізація кожного члена спільноти креативного простору.</p>
+
+  <h3>Новизна</h3>
+
+  <p>Фізичне місце для мешканців міста, де людина (незалежно від віку та соціального статусу) зможе отримати всі
+    необхідні
+    теоретичні та практичні знання для
+    самореалізації.</p>
+
+  <h3>Довгострокова місія</h3>
+
+  <p>Дає можливість мешканцям міста самореалізуватися в спільноті та стати повноцінним членом громади, приймати участь у
+    реалізації соціально важливих для міста проектах.</p>
+
+  <h3>Чи є схожі проекти в місті?</h3>
+
+  <ul>
+    <li>Шелтер+ - акцент на дітях, підлітках та молоді</li>
+    <li>МБА - акцент на бізнесові інтереси</li>
+  </ul>
+
+</div>
+
+{{outlet}}
